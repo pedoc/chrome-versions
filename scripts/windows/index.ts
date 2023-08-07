@@ -9,6 +9,10 @@ export async function process(os: string, version: string, releases: GithubRelea
   const url = Versions.get(version)[os];
 
   const downloaded = await downloadInstaller(url, os, version);
+  if(!downloaded) {
+    console.log('Skipping %s for %s,reason: can not download', version, os);
+    return;
+  }
   await extractWindowsExe(downloaded, assetPath, version);
   let release = await releases.get(version);
   await releases.uploadAsset(release, assetPath);
