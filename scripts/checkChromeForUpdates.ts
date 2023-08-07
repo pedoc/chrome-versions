@@ -22,10 +22,13 @@ const aplist = {
   mac_stable_arm64: '',
 };
 
-async function getChromeUpdateUrls(os: 'win' | 'mac', arch: 'x64' | 'x86' | 'arm64') {
+async function getChromeUpdateUrls(
+  os: 'win' | 'mac',
+  arch: 'x64' | 'x86' | 'arm64',
+  channel: 'stable' | 'beta' | 'dev' | 'canary' = 'stable'){
   const ver = versionsByOs[os];
   const appid = appidByOs[os];
-  const ap = aplist[`${os}_stable_${arch}`];
+  const ap = aplist[`${os}_${channel}_${arch}`];
 
   const postData = `<?xml version='1.0' encoding='UTF-8'?>
 <request protocol='3.0' version='1.3.23.9' shell_version='1.3.21.103' ismachine='1'
@@ -81,4 +84,6 @@ async function getChromeUpdateUrls(os: 'win' | 'mac', arch: 'x64' | 'x86' | 'arm
   await getChromeUpdateUrls('mac', 'x64');
   await getChromeUpdateUrls('win', 'x86');
   await getChromeUpdateUrls('win', 'x64');
+  await getChromeUpdateUrls('win', 'x64','dev');
+  await getChromeUpdateUrls('win', 'x64','beta');
 })();
