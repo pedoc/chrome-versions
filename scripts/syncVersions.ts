@@ -5,11 +5,14 @@ import * as Mac from './mac';
 import * as Windows from './windows';
 import * as Debian from './debian';
 
+if (!process.env.SYNC_OS_KEYS) {
+  process.env.SYNC_OS_KEYS = 'win32,win64'
+}
 const osesToSync = process.env.SYNC_OS_KEYS.split(',').map(x => x.trim());
 
 async function syncVersions() {
-  const releases = new GithubReleases();
   const versionEntries = Object.entries(versions);
+  const releases = new GithubReleases();
   // sort by version key descending
   versionEntries.sort((a, b) => {
     return a[0].localeCompare(b[0]);
