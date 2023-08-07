@@ -5,6 +5,7 @@ on:
     # Run at 10am daily
     - cron: '0 10 * * *'
   push:
+  workflow_dispatch:
 
 jobs:
   cron:
