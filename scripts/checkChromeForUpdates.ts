@@ -17,6 +17,8 @@ const appidByOs = {
 const aplist = {
   win_stable_x86: '-multi-chrome',
   win_stable_x64: 'x64-stable-multi-chrome',
+  win_beta_x64: 'x64-beta-multi-chrome',
+  win_dev_x64: 'x64-dev-multi-chrome',
   mac_stable_x86: '',
   mac_stable_x64: '',
   mac_stable_arm64: '',
