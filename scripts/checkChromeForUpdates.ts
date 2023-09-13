@@ -29,8 +29,13 @@ async function getChromeUpdateUrls(
   arch: 'x64' | 'x86' | 'arm64',
   channel: 'stable' | 'beta' | 'dev' | 'canary' = 'stable'){
   const ver = versionsByOs[os];
-  const appid = appidByOs[os];
-  const ap = aplist[`${os}_${channel}_${arch}`];
+  let appid = appidByOs[os];
+  let ap = aplist[`${os}_${channel}_${arch}`];
+
+  if(channel === 'canary'&&os==='win') {
+    appid='{4EA16AC7-FD5A-47C3-875B-DBF4A2008C20}';
+    ap='x64-canary-statsdef_1'
+  }
 
   const postData = `<?xml version='1.0' encoding='UTF-8'?>
 <request protocol='3.0' version='1.3.23.9' shell_version='1.3.21.103' ismachine='1'
@@ -86,6 +91,7 @@ async function getChromeUpdateUrls(
   await getChromeUpdateUrls('mac', 'x64');
   await getChromeUpdateUrls('win', 'x86');
   await getChromeUpdateUrls('win', 'x64');
-  await getChromeUpdateUrls('win', 'x64','dev');
   await getChromeUpdateUrls('win', 'x64','beta');
+  await getChromeUpdateUrls('win', 'x64','dev');
+  await getChromeUpdateUrls('win', 'x64','canary');
 })();
