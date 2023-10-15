@@ -1,4 +1,7 @@
 {
+  "120.0.6067.0": {
+    "win64": "http://dl.google.com/release2/chrome/dbnywxo7nfje5r5f6o3fdzfsue_120.0.6067.0/120.0.6067.0_chrome_installer.exe"
+  },
   "120.0.6061.0": {
     "win64": "http://dl.google.com/release2/chrome/adqfms5m2pscsok4n73ulxzwmzmq_120.0.6061.0/120.0.6061.0_chrome_installer.exe"
   },
@@ -10,6 +13,9 @@
   },
   "120.0.6050.0": {
     "win64": "http://dl.google.com/release2/chrome/jbj5hz6mcjwwv5mga7f5bvwvua_120.0.6050.0/120.0.6050.0_chrome_installer.exe"
+  },
+  "119.0.6045.21": {
+    "win64": "http://dl.google.com/release2/chrome/onssiqu7hfh7hvnfa5ifl5anti_119.0.6045.21/119.0.6045.21_chrome_installer.exe"
   },
   "119.0.6045.9": {
     "win64": "http://dl.google.com/release2/chrome/achy3ek5sjrb4masi2t5w7czugba_119.0.6045.9/119.0.6045.9_chrome_installer.exe"
