@@ -1,9 +1,18 @@
 {
+  "124.0.6353.0": {
+    "win64": "http://dl.google.com/release2/chrome/ac5y73oguojvu5fcftzugvnvpqfa_124.0.6353.0/124.0.6353.0_chrome_installer.exe"
+  },
+  "124.0.6342.3": {
+    "win64": "http://dl.google.com/release2/chrome/pquhuyultoaj4twpnstmq7lm64_124.0.6342.3/124.0.6342.3_chrome_installer.exe"
+  },
   "124.0.6324.0": {
     "win64": "http://dl.google.com/release2/chrome/kfgzuvzd4xac7qmory2drxfg7m_124.0.6324.0/124.0.6324.0_chrome_installer.exe"
   },
   "124.0.6315.2": {
     "win64": "http://dl.google.com/release2/chrome/htekimz3wxymnru4ruivy5c3gu_124.0.6315.2/124.0.6315.2_chrome_installer.exe"
+  },
+  "123.0.6312.28": {
+    "win64": "http://dl.google.com/release2/chrome/gd3tmoamqz4g2xlgg46qkk63ky_123.0.6312.28/123.0.6312.28_chrome_installer.exe"
   },
   "123.0.6312.4": {
     "win64": "http://dl.google.com/release2/chrome/adfhih3cmzs6bidcdudls6rlngna_123.0.6312.4/123.0.6312.4_chrome_installer.exe"
@@ -19,6 +28,14 @@
   },
   "123.0.6272.2": {
     "win64": "http://dl.google.com/release2/chrome/acathfzqksxykl2buxrgs7l47yqa_123.0.6272.2/123.0.6272.2_chrome_installer.exe"
+  },
+  "122.0.6261.112": {
+    "mac_arm64": "http://dl.google.com/release2/chrome/adbqckkczcp63w2absqg4qxrh4wq_122.0.6261.112/GoogleChrome-122.0.6261.112.dmg",
+    "mac": "http://dl.google.com/release2/chrome/adbqckkczcp63w2absqg4qxrh4wq_122.0.6261.112/GoogleChrome-122.0.6261.112.dmg",
+    "linux": "http://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_122.0.6261.112-1_amd64.deb",
+    "linux_rpm": "http://dl.google.com/linux/chrome/rpm/stable/x86_64/google-chrome-stable-122.0.6261.112-1.x86_64.rpm",
+    "win32": "http://dl.google.com/release2/chrome/mwp3sugf7kfbi5o3pqm2tgvekm_122.0.6261.112/122.0.6261.112_chrome_installer.exe",
+    "win64": "http://dl.google.com/release2/chrome/ac7hkc546b3jisxnroqpyf3ayfrq_122.0.6261.112/122.0.6261.112_chrome_installer.exe"
   },
   "122.0.6261.70": {
     "win32": "http://dl.google.com/release2/chrome/adectmwfwjgwtszkubqhiqc33nta_122.0.6261.70/122.0.6261.70_chrome_installer.exe",
