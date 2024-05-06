@@ -1,4 +1,10 @@
 {
+  "126.0.6461.0": {
+    "win64": "http://dl.google.com/release2/chrome/a7f2ed7wv4t4aojkj4k2vpwhvy_126.0.6461.0/126.0.6461.0_chrome_installer.exe"
+  },
+  "126.0.6452.3": {
+    "win64": "http://dl.google.com/release2/chrome/e3bkiumplaahuexbmtpsie47ja_126.0.6452.3/126.0.6452.3_chrome_installer.exe"
+  },
   "126.0.6449.1": {
     "win64": "http://dl.google.com/release2/chrome/adanxski2m5fk4oq2gngqscmh5sq_126.0.6449.1/126.0.6449.1_chrome_installer.exe"
   },
@@ -11,6 +17,9 @@
   "126.0.6423.2": {
     "win64": "http://dl.google.com/release2/chrome/pyhxjbx5bd6xnz56rgc46lrbwe_126.0.6423.2/126.0.6423.2_chrome_installer.exe"
   },
+  "125.0.6422.26": {
+    "win64": "http://dl.google.com/release2/chrome/acfdw4qixl2jcmy4nvju35nb57na_125.0.6422.26/125.0.6422.26_chrome_installer.exe"
+  },
   "125.0.6422.14": {
     "win64": "http://dl.google.com/release2/chrome/aohdd3noqrgfkqqouvybaxuony_125.0.6422.14/125.0.6422.14_chrome_installer.exe"
   },
@@ -22,6 +31,14 @@
   },
   "125.0.6396.3": {
     "win64": "http://dl.google.com/release2/chrome/accw6vrwba4tpcv64sezbhtiru7a_125.0.6396.3/125.0.6396.3_chrome_installer.exe"
+  },
+  "124.0.6367.119": {
+    "mac_arm64": "http://dl.google.com/release2/chrome/adu4j5wzlxjncy25hwhmlrnslmla_124.0.6367.119/GoogleChrome-124.0.6367.119.dmg",
+    "mac": "http://dl.google.com/release2/chrome/adu4j5wzlxjncy25hwhmlrnslmla_124.0.6367.119/GoogleChrome-124.0.6367.119.dmg",
+    "linux": "http://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_124.0.6367.119-1_amd64.deb",
+    "linux_rpm": "http://dl.google.com/linux/chrome/rpm/stable/x86_64/google-chrome-stable-124.0.6367.119-1.x86_64.rpm",
+    "win32": "http://dl.google.com/release2/chrome/acglcfmagd2iu7grqssdlvsyo4pa_124.0.6367.119/124.0.6367.119_chrome_installer.exe",
+    "win64": "http://dl.google.com/release2/chrome/achddwdytcc5oxkg573oe6vcctqq_124.0.6367.119/124.0.6367.119_chrome_installer.exe"
   },
   "124.0.6367.93": {
     "mac_arm64": "http://dl.google.com/release2/chrome/kmps2gmdq5g7e25kpz6lrtuwoe_124.0.6367.93/GoogleChrome-124.0.6367.93.dmg",
