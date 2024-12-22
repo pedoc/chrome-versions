@@ -1,4 +1,10 @@
 {
+  "133.0.6911.0": {
+    "win64": "http://dl.google.com/release2/chrome/adf3vka24diguj2viyffd6gxph3a_133.0.6911.0/133.0.6911.0_chrome_installer.exe"
+  },
+  "133.0.6905.0": {
+    "win64": "http://dl.google.com/release2/chrome/ad3ozjqhvhqjrgc54qjmhpalrc7a_133.0.6905.0/133.0.6905.0_chrome_installer.exe"
+  },
   "133.0.6901.0": {
     "win64": "http://dl.google.com/release2/chrome/gvr6hz42pprg3d4ktyg3it7e2u_133.0.6901.0/133.0.6901.0_chrome_installer.exe"
   },
@@ -17,6 +23,9 @@
   "133.0.6847.2": {
     "win64": "http://dl.google.com/release2/chrome/nq65kzdtc2diabsobaf4dswfn4_133.0.6847.2/133.0.6847.2_chrome_installer.exe"
   },
+  "132.0.6834.57": {
+    "win64": "http://dl.google.com/release2/chrome/act7afo2n4tzocsqkuutdtktsl7a_132.0.6834.57/132.0.6834.57_chrome_installer.exe"
+  },
   "132.0.6834.46": {
     "win64": "http://dl.google.com/release2/chrome/aci3yvj3bkamkl3i3wzfw2mrc77a_132.0.6834.46/132.0.6834.46_chrome_installer.exe"
   },
@@ -34,6 +43,14 @@
   },
   "132.0.6779.0": {
     "win64": "http://dl.google.com/release2/chrome/g2kumzdqrrqiif5j2tmkcofpgi_132.0.6779.0/132.0.6779.0_chrome_installer.exe"
+  },
+  "131.0.6778.205": {
+    "mac_arm64": "http://dl.google.com/release2/chrome/adzhzymuuqppdtyulfwtrtnxa2oq_131.0.6778.205/GoogleChrome-131.0.6778.205.dmg",
+    "mac": "http://dl.google.com/release2/chrome/adzhzymuuqppdtyulfwtrtnxa2oq_131.0.6778.205/GoogleChrome-131.0.6778.205.dmg",
+    "linux": "http://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_131.0.6778.205-1_amd64.deb",
+    "linux_rpm": "http://dl.google.com/linux/chrome/rpm/stable/x86_64/google-chrome-stable-131.0.6778.205-1.x86_64.rpm",
+    "win32": "http://dl.google.com/release2/chrome/gptfu3tpnmld7i57qcgkfoswvu_131.0.6778.205/131.0.6778.205_chrome_installer.exe",
+    "win64": "http://dl.google.com/release2/chrome/lhk467b4cund52vqgqjnf2s4q4_131.0.6778.205/131.0.6778.205_chrome_installer.exe"
   },
   "131.0.6778.140": {
     "mac_arm64": "http://dl.google.com/release2/chrome/ijobeyqsjtnv35wplq3dh5ngae_131.0.6778.140/GoogleChrome-131.0.6778.140.dmg",
