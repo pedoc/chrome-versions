@@ -22,8 +22,8 @@ jobs:
           node-version: 16
           registry-url: 'https://registry.npmjs.org'
 
-      - name: Yarn Install
-        run: yarn
+      - name: Npm Install
+        run: npm i
         env:
           HERO_SKIP_CHROME_DOWNLOAD: false
 
