@@ -1,6 +1,6 @@
 {
   "name": "@ulixee/chrome-version-template",
-  "version": "1.0.8",
+  "version": "1.0.11",
   "fullVersion": "[fill-in full chrome version]",
   "private": true,
   "main": "index.js",
@@ -9,10 +9,12 @@
   "license": "MIT",
   "scripts": {},
   "repository": "git@github.com:ulixee/chrome-versions.git",
-  "author": "Data Liberation Foundation",
-  "contributors": [
-    "Caleb Clark",
-    "Blake Byrnes"
+  "author": "Ulixee",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "index.d.ts.map",
+    "install.js"
   ],
   "homepage": "https://ulixee.org",
   "dependencies": {

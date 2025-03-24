@@ -10,6 +10,8 @@ const latestPackageVersion = TemplatePackageJson.version.split('.').pop();
 
 type IPlatform = typeof ChromeApp.prototype.osPlatformName;
 
+const MIN_MAJOR_VERSION_TO_UPDATE = 122;
+
 async function main() {
   const versionMap: {
     [majorVersion: string]: [minor: number, patch: number, platforms: IPlatform[]][];
@@ -26,11 +28,11 @@ async function main() {
       return a[0] - b[0];
     });
   }
-  console.log(versionMap);
 
   for (const [major, versions] of Object.entries(versionMap)) {
     const lastVersionByOs: Partial<Record<IPlatform, string>> = {};
     for (const [minor, patch, oses] of versions) {
+      if (parseInt(major, 10) < MIN_MAJOR_VERSION_TO_UPDATE) continue;
       // we use Chrome's version
       const version = `${minor}.${patch}.${latestPackageVersion}`;
       const name = `@ulixee/chrome-${major}-0`;
@@ -69,7 +71,7 @@ async function main() {
       Fs.copyFileSync(`${srcDir}/install.js`, `${outDir}/install.js`);
       Fs.writeFileSync(`${outDir}/package.json`, JSON.stringify(newPackage, null, 2));
 
-      console.log(name, version);
+      console.log(`npm show ${name}@${version}`);
 
       try {
         const exists = execSync(`npm show ${name}@${version}`, { encoding: 'utf8' });
@@ -79,7 +81,7 @@ async function main() {
           continue;
         }
       } catch (err) {
-        if (!String(err).includes(`npm ERR! code E404`)) {
+        if (!String(err).includes(`code E404`)) {
           throw err;
         }
       }
@@ -104,7 +106,7 @@ async function main() {
         }
         if (!hasAllVersions) continue;
       } catch (err) {
-        console.error('ERROR checking for release assets %s', fullVersion, err)
+        console.error('ERROR checking for release assets %s', fullVersion, err);
         continue;
       }
 

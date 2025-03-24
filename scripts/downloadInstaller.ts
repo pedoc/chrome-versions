@@ -14,30 +14,21 @@ export async function downloadInstaller(
 
   console.log('Downloading Chrome@%s on %s at url: %s', chromeVersion, chromeOs, url, headers);
 
-  try {
-    const response = await Axios.get(url, {
-      responseType: 'stream',
-      maxRedirects: 5,
-      method: 'GET',
-      headers,
-    });
+  const response = await Axios.get(url, {
+    responseType: 'stream',
+    maxRedirects: 5,
+    method: 'GET',
+    headers,
+  });
 
-    if (response.status === 404) {
-      //throw new Error('Not found');
-      return '';
-    }
+  if (response.status === 404) throw new Error('Not found');
 
-    const file = Fs.createWriteStream(destinationPath);
-    response.data.pipe(file);
-    await new Promise((resolve, reject) => {
-      file.on('finish', resolve);
-      file.on('error', reject);
-    });
-    console.log('Finished download at %s', destinationPath);
-    return destinationPath;
-  }
-  catch (ex){
-    console.log('Error downloading Chrome@%s on %s at url: %s', chromeVersion, chromeOs, url, ex);
-    return '';
-  }
+  const file = Fs.createWriteStream(destinationPath);
+  response.data.pipe(file);
+  await new Promise<void>((resolve, reject) => {
+    file.on('finish', resolve);
+    file.on('error', reject);
+  });
+  console.log('Finished download at %s', destinationPath);
+  return destinationPath;
 }
