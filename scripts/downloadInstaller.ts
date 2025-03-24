@@ -21,7 +21,8 @@ export async function downloadInstaller(
     headers,
   });
 
-  if (response.status === 404) throw new Error('Not found');
+  // if (response.status === 404) throw new Error('Not found');
+  if (response.status === 404) return null;
 
   const file = Fs.createWriteStream(destinationPath);
   response.data.pipe(file);
