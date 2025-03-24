@@ -22,8 +22,8 @@ jobs:
         with:
           node-version: 14
 
-      - name: Yarn Install
-        run: yarn
+      - name: Npm Install
+        run: npm i
 
       - name: Synchronize Versions File
         run: node ./scripts/syncVersions.js
