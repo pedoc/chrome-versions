@@ -33,6 +33,7 @@ jobs:
   mac:
     runs-on: macos-latest
     needs: windows
+    if: false
 
     steps:
       - name: Check out Git repository
@@ -67,6 +68,7 @@ jobs:
   ubuntu:
     runs-on: ubuntu-latest
     needs: [windows,mac]
+    if: false
 
     steps:
       - name: Check out Git repository
