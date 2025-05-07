@@ -9,11 +9,11 @@ export async function process(os: string, version: string, releases: GithubRelea
   const url = Versions.get(version)[os];
 
   const downloaded = await downloadInstaller(url, os, version);
-  if(!downloaded) {
+  if (!downloaded) {
     console.log('Skipping %s for %s,reason: can not download', version, os);
     return;
   }
-  await extractWindowsExe(downloaded, assetPath, version);
+  await extractWindowsExe(downloaded, assetPath, version, !url.endsWith('uncompressed.exe'));
   let release = await releases.get(version);
   await releases.uploadAsset(release, assetPath);
 }

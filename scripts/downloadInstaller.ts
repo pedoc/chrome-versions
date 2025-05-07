@@ -31,7 +31,7 @@ export async function downloadInstaller(
       file.on('finish', resolve);
       file.on('error', reject);
     });
-    console.log('Finished download at %s', destinationPath);
+    console.log('Finished download at %s,from %s', destinationPath,url);
     return destinationPath;
   }
   catch (e) {
