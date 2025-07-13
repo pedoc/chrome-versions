@@ -1,4 +1,7 @@
 {
+  "140.0.7293.0": {
+    "win64": "http://dl.google.com/release2/chrome/ac66fmgwzuo3ucfaftwg33pawc2q_140.0.7293.0/140.0.7293.0_chrome_installer_uncompressed.exe"
+  },
   "140.0.7291.0": {
     "win64": "http://dl.google.com/release2/chrome/gqpxw7u2yjdk6kal3kivj3ss2a_140.0.7291.0/140.0.7291.0_chrome_installer_uncompressed.exe"
   },
