@@ -1,6 +1,12 @@
 {
+  "142.0.7436.0": {
+    "win64": "http://dl.google.com/release2/chrome/adfhwxuh32eveuvlwzsynqqevbkq_142.0.7436.0/142.0.7436.0_chrome_installer_uncompressed.exe"
+  },
   "142.0.7434.0": {
     "win64": "http://dl.google.com/release2/chrome/adyfzdh2v2bj6ewfaagg7q6k4csq_142.0.7434.0/142.0.7434.0_chrome_installer_uncompressed.exe"
+  },
+  "142.0.7432.4": {
+    "win64": "http://dl.google.com/release2/chrome/acyzool5b5ka4eccurty4xtpze4q_142.0.7432.4/142.0.7432.4_chrome_installer_uncompressed.exe"
   },
   "142.0.7432.0": {
     "win64": "http://dl.google.com/release2/chrome/hbruxrnwug44hf2dsryvjorzty_142.0.7432.0/142.0.7432.0_chrome_installer_uncompressed.exe"
@@ -193,6 +199,10 @@
   },
   "141.0.7340.0": {
     "win64": "http://dl.google.com/release2/chrome/ma5f2vyayvficgtu5cp2xgwdje_141.0.7340.0/141.0.7340.0_chrome_installer_uncompressed.exe"
+  },
+  "140.0.7339.214": {
+    "mac_arm64": "http://dl.google.com/release2/chrome/mfmmq5vcqbb2jdp3e77lsymylu_140.0.7339.214/GoogleChrome-140.0.7339.214.dmg",
+    "mac": "http://dl.google.com/release2/chrome/mfmmq5vcqbb2jdp3e77lsymylu_140.0.7339.214/GoogleChrome-140.0.7339.214.dmg"
   },
   "140.0.7339.208": {
     "mac_arm64": "http://dl.google.com/release2/chrome/acsw3boop64eo5zxqg6jdhi34c5q_140.0.7339.208/GoogleChrome-140.0.7339.208.dmg",
