@@ -1,4 +1,7 @@
 {
+  "151.0.7912.0": {
+    "win64": "http://dl.google.com/release2/chrome/adcy74d4oirj4fsluq35d4hx5orq_151.0.7912.0/151.0.7912.0_chrome_installer_uncompressed.exe"
+  },
   "151.0.7910.0": {
     "win64": "http://dl.google.com/release2/chrome/acxznp7lfb7g3lpp26pi2vk3hwkq_151.0.7910.0/151.0.7910.0_chrome_installer_uncompressed.exe"
   },
@@ -67,6 +70,9 @@
   },
   "151.0.7872.0": {
     "win64": "http://dl.google.com/release2/chrome/h45xpatikhv7wjuopcjxt7city_151.0.7872.0/151.0.7872.0_chrome_installer_uncompressed.exe"
+  },
+  "150.0.7871.46": {
+    "win64": "http://dl.google.com/release2/chrome/dob3pq6htv7r4ojfobaautkkxm_150.0.7871.46/150.0.7871.46_chrome_installer_uncompressed.exe"
   },
   "150.0.7871.24": {
     "win64": "http://dl.google.com/release2/chrome/adlp7q4plq3myqwjpi3jylrtov5a_150.0.7871.24/150.0.7871.24_chrome_installer_uncompressed.exe"
