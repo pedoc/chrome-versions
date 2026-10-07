@@ -1,4 +1,7 @@
 {
+  "157.0.8090.1": {
+    "win64": "http://dl.google.com/release2/chrome/dyc4mpx6ilth4j22lgfif3ntom_157.0.8090.1/157.0.8090.1_chrome_installer_uncompressed.exe"
+  },
   "157.0.8088.0": {
     "win64": "http://dl.google.com/release2/chrome/adsaq3rfhaoxf2wmrlcec6e2ho5a_157.0.8088.0/157.0.8088.0_chrome_installer_uncompressed.exe"
   },
@@ -19,6 +22,9 @@
   },
   "157.0.8079.0": {
     "win64": "http://dl.google.com/release2/chrome/add7h57d6vjxi2vdzzio6pfdhifq_157.0.8079.0/157.0.8079.0_chrome_installer_uncompressed.exe"
+  },
+  "156.0.8078.16": {
+    "win64": "http://dl.google.com/release2/chrome/adizupqrnftwa2s2vby7262du62a_156.0.8078.16/156.0.8078.16_chrome_installer_uncompressed.exe"
   },
   "156.0.8078.4": {
     "win64": "http://dl.google.com/release2/chrome/i7u2qmconfyv53siowkykyl66q_156.0.8078.4/156.0.8078.4_chrome_installer_uncompressed.exe"
@@ -58,6 +64,16 @@
   },
   "156.0.8061.0": {
     "win64": "http://dl.google.com/release2/chrome/mufqootgl4exrncepogv7xx6am_156.0.8061.0/156.0.8061.0_chrome_installer_uncompressed.exe"
+  },
+  "155.0.8059.40": {
+    "mac_arm64": "http://dl.google.com/release2/chrome/lr7fpw3uxyyx5tnf7oone26c6m_155.0.8059.40/GoogleChrome-155.0.8059.40.dmg",
+    "mac": "http://dl.google.com/release2/chrome/lr7fpw3uxyyx5tnf7oone26c6m_155.0.8059.40/GoogleChrome-155.0.8059.40.dmg",
+    "win32": "http://dl.google.com/release2/chrome/acebtw7pmgyxqsd5b653vx6idjoa_155.0.8059.40/155.0.8059.40_chrome_installer_uncompressed.exe",
+    "win64": "http://dl.google.com/release2/chrome/adeicfs34nqhzmry2l2sdlpo7l2q_155.0.8059.40/155.0.8059.40_chrome_installer_uncompressed.exe"
+  },
+  "155.0.8059.39": {
+    "linux": "http://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_155.0.8059.39-1_amd64.deb",
+    "linux_rpm": "http://dl.google.com/linux/chrome/rpm/stable/x86_64/google-chrome-stable-155.0.8059.39-1.x86_64.rpm"
   },
   "155.0.8059.12": {
     "win64": "http://dl.google.com/release2/chrome/jvphc4gwnntk5v4ae2fm4rkkx4_155.0.8059.12/155.0.8059.12_chrome_installer_uncompressed.exe"
