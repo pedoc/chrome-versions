@@ -1,4 +1,7 @@
 {
+  "160.0.8175.1": {
+    "win64": "http://dl.google.com/release2/chrome/acfwwtly4c27zqao6ubkjylphzaq_160.0.8175.1/160.0.8175.1_chrome_installer_uncompressed.exe"
+  },
   "160.0.8173.0": {
     "win64": "http://dl.google.com/release2/chrome/jwpsiieqd5m5tp2mmqgq7ds3um_160.0.8173.0/160.0.8173.0_chrome_installer_uncompressed.exe"
   },
